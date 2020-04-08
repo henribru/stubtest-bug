@@ -1,0 +1,3 @@
+from .bar import Bar, Baz as Baz # type: ignore
+
+def foo(bar: Bar, baz: Baz) -> None: ...
